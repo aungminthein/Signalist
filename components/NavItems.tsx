@@ -18,7 +18,7 @@ export const NavItems = () => {
          {NAV_ITEMS.map(({ label, href }: { href: string; label: string }) => (
             <li
                key={label}
-               className={`transition-colors hover:text-yellow-500 ${isActive(href) ? "text-gray-100" : ""}`}
+               className={`cursor-pointer transition-colors hover:text-yellow-500 ${isActive(href) ? "text-gray-100" : ""}`}
             >
                {label}
             </li>

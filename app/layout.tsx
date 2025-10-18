@@ -28,6 +28,7 @@ export default function RootLayout({
          <body
             className={`${geistSans.variable} ${geistMono.variable} antialiased`}
          >
+            This is the layout for root and authentication sections.
             {children}
             <Toaster richColors />
          </body>
